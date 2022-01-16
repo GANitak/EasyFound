@@ -1,6 +1,7 @@
-.html.Header {
+.App {
   margin: 0;
   padding: 0;
+  border-style: double;
 }
 
 .App-header {
@@ -17,9 +18,14 @@
   max-height: 275vh;
 }
 .Face-logo {
-  height: 72vmin;
+  height: 64vmin;
   pointer-events: visible;
   border-style: dashed;
+}
+
+.contact {
+  font-family: fantasy;
+  font-size: ;
 }
 
 /*@media (prefers-reduced-motion: no-preference) {

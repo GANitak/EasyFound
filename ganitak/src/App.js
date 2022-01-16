@@ -3,8 +3,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="Header">
-    <nav bar="contact" style={{ color: '#369f14'}}>Contact</nav>
+    <div className="App">
+    <nav bar="contact" style={{ color: '#369f14'}}>Contact </nav>
           <header className="App-header">
         <img src={IMGanit} className="Face-logo" alt="FaceLogo" />
         <main>
