@@ -1,4 +1,5 @@
 import IMGanit from './IMGanit.svg';
+// import BrowserRouter, Routes, Route from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -6,7 +7,12 @@ function App() {
     <div className="App">
     <nav bar="contact" style={{ color: '#369f14'}}>Contact </nav>
           <header className="App-header">
+
+    
+          {/*<Link to="https://www.ganitak.io/">*/}
         <img src={IMGanit} className="Face-logo" alt="FaceLogo" />
+        {/*</Link>*/}
+
         <main>
             <p><strong>Welcome to GANit_ak.io</strong></p>
             <p>
@@ -15,7 +21,9 @@ function App() {
         (front end) & back end<br/>
           <strong><code>Happy times G0 after that.</code></strong>
             </p>
-            </main>
+
+            <button>https://www.ganitak.io/</button>
+        </main>
       </header>
       <footer className="footer">&copy; &#8471; GANitak.io</footer>
     </div>

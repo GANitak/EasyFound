@@ -2,13 +2,16 @@
   margin: 0;
   padding: 0;
   border-style: double;
+  background-color: darkred;
+  /*display: table;*/
+  height: fit-content;
+  /*filter: url(www.ganitak.io/);*/
 }
 
 .App-header {
   margin: 0;
   padding: 0;
-  background-color: #369f14;
-  min-height: 96vh;
+  min-height: 95.2vh;
   display: flex-start;
   text-align: center;
   flex-direction: column;
@@ -17,7 +20,8 @@
   font-size: calc(15px + 2vmin);
   color: darkred;
   background-color: #369f14;
-  max-height: 275vh;
+  max-height: fit-content;
+
 }
 
 .Face-logo {
@@ -33,6 +37,10 @@
   border-style: solid;
 }
 
+.footer {
+  background-color: #256f92;
+
+}
 /*@media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
