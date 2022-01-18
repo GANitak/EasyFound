@@ -5,6 +5,8 @@
 }
 
 .App-header {
+  margin: 0;
+  padding: 0;
   background-color: #369f14;
   min-height: 96vh;
   display: flex-start;
@@ -12,20 +14,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(15px + 2vmin);
   color: darkred;
   background-color: #369f14;
   max-height: 275vh;
 }
+
 .Face-logo {
-  height: 64vmin;
+  height: 72vmin;
   pointer-events: visible;
   border-style: dashed;
+
 }
 
 .contact {
   font-family: fantasy;
-  font-size: ;
+  font-size: calc(15px + 2vmin);
+  border-style: solid;
 }
 
 /*@media (prefers-reduced-motion: no-preference) {
