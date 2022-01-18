@@ -22,7 +22,7 @@ function App() {
           <strong><code>Happy times G0 after that.</code></strong>
             </p>
 
-            <button>https://www.ganitak.io/</button>
+            {/*<button>https://www.ganitak.io/</button>*/}
         </main>
       </header>
       <footer className="footer">&copy; &#8471; GANitak.io</footer>
