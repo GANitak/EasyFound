@@ -1,18 +1,21 @@
 import IMGanit from './IMGanit.svg';
+import { Link } from "react-router-dom";
+//import './Components/NavBar.js'
+
+
 // import BrowserRouter, Routes, Route from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-    <nav bar="contact" style={{ color: '#369f14'}}>Contact </nav>
+    <nav bar="NavBar" style={{ color: '#369f14'}}>Contact </nav>
           <header className="App-header">
 
-    
-          {/*<Link to="https://www.ganitak.io/">*/}
-        <img src={IMGanit} className="Face-logo" alt="FaceLogo" />
-        {/*</Link>*/}
-
+{/*          <Link to="https://www.ganitak.io/">
+*/}        <img src={IMGanit} className="Face-logo" alt="FaceLogo" />
+{/*        </Link>
+*/}
         <main>
             <p><strong>Welcome to GANit_ak.io</strong></p>
             <p>
