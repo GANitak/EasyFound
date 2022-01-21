@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from "react-router-dom";
+import NextLink from 'next/link';
 
-import './Components/navBar.js';
+
+import Login from './Components/Login.js'
+import NavBar from './Components/NavBar.js';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -12,7 +15,8 @@ ReactDOM.render(
 
   <BrowserRouter>
     <App />
-    <navBar />
+    <NavBar />
+    <Login />
   </BrowserRouter>
 
   </React.StrictMode>,

@@ -8,6 +8,24 @@
   /*filter: url(www.ganitak.io/);*/
 }
 
+.auth-form {
+  margin: 0;
+  padding: 15px;
+  display: flex-end;
+  border-style: dashed;
+  padding-bottom: 5px;
+  font-size: calc(12px + 2vmin);
+  font-family: monospace;
+  width: fit-content;
+  text-align: right;
+  background-color: black;
+}
+
+/*.InputGroup {
+  padding-left: 15px;
+  display: flex;
+}*/
+
 .App-header {
   margin: 0;
   padding: 0;
@@ -25,13 +43,21 @@
 }
 
 .Face-logo {
-  height: 72vmin;
-  pointer-events: visible;
+  height: 54vmin;
+  /*pointer-events: visible;*/
   border-style: dashed;
+  display: flex-start;
 
 }
 
+/*.nav {
+  display: flex;
+  background-color: chocolate;
+}*/
+
 .NavBar {
+  display: flex-start;
+
   font-family: fantasy;
   font-size: calc(15px + 2vmin);
   border-style: solid;

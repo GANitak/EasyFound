@@ -6,7 +6,7 @@ import '../App.css';
 import { Link } from 'react-router-dom';
 
 
-class navBar extends Component {
+class NavBar extends Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -22,11 +22,11 @@ class navBar extends Component {
             
                 <div id = 'nav-links-container'>
                     
-                    <Link to='/experiences'>
+                   {/* <Link to='/experiences'>
                         <div className = 'nav-links'>
                             Experiences
                         </div>
-                    </Link>
+                    </Link>*/}
 
                     <div className = 'nav-links'>
                         Projects
@@ -48,4 +48,4 @@ class navBar extends Component {
 }
 
 
-export default navBar;
+export default NavBar;
