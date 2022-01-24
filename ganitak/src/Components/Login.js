@@ -9,10 +9,7 @@ const Login = () => {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
 
-
   return (
-    <>
-
       <form className="auth-form">
 
         <FormGroup label="Email" labelFor="email">
@@ -34,7 +31,7 @@ const Login = () => {
 
             id="password"
             placeholder="Password"
-            // style={{InputGroup}}
+            
 
             type="password"
             value={password}
@@ -50,9 +47,6 @@ const Login = () => {
         text="Sign In" />
 
       </form>
-
-    </>
-
   )
 
 }

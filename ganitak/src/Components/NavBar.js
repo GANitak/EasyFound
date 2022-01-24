@@ -2,11 +2,14 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from "react-router-dom";
 
+
+// import IMGanit from './IMGanit.svg';
 import '../App.css';
 import { Link } from 'react-router-dom';
 
 
 class NavBar extends Component {
+
     constructor(props) {
         super(props);
         this.state = {};
@@ -16,7 +19,7 @@ class NavBar extends Component {
             <div id = 'IDNavBar'>
 
                 <div className='NavBar'>
-                    NAVBAR CONTENT
+                    Site in progress / Making test
                 </div>
             
             

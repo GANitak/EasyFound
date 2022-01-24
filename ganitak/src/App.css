@@ -8,6 +8,15 @@
   /*filter: url(www.ganitak.io/);*/
 }
 
+#IDNavBar {
+  margin: 10px;
+  padding: 15px;
+  text-align: right;
+  flex-flow: row;
+  font-family: ubuntu;
+  border-style: dashed;
+}
+
 .auth-form {
   margin: 0;
   padding: 15px;
@@ -18,7 +27,7 @@
   font-family: monospace;
   width: fit-content;
   text-align: right;
-  background-color: black;
+  background-color: grey;
 }
 
 /*.InputGroup {
@@ -29,7 +38,7 @@
 .App-header {
   margin: 0;
   padding: 0;
-  min-height: 95.2vh;
+  min-height: 84.2vh;
   display: flex-start;
   text-align: center;
   flex-direction: column;
@@ -43,37 +52,46 @@
 }
 
 .Face-logo {
-  height: 54vmin;
-  /*pointer-events: visible;*/
-  border-style: dashed;
+  margin-top: 5px;
+  height: 45vmin;
+  pointer-events: visible;
+  border-style: groove;
   display: flex-start;
 
 }
-
-/*.nav {
-  display: flex;
-  background-color: chocolate;
-}*/
 
 .NavBar {
   display: flex-start;
 
-  font-family: fantasy;
+  font-family: code;
+  border-style: groove;
+  border-color: cadetblue;
+  border-spacing: inherit;
   font-size: calc(15px + 2vmin);
-  border-style: solid;
+  /*border-style: solid;*/
 }
 
 .footer {
   background-color: #256f92;
+  display: flex;/*
+  margin-left: 10px;
+  margin-right: 1666px;
+  margin-bottom: 0.5px;
+  margin-top: 0.5px;*/
 
 }
+
+
+
+
+
+
+
 /*@media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }*/
-
-
 
 /*.App-link {
   color: #61dafb;
